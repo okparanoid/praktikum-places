@@ -1,0 +1,29 @@
+@import url('__list/intro__list.css');
+@import url('__span-accent/intro__span-accent.css');
+@import url('__text/intro__text.css');
+@import url('__text-list/intro__text-list.css');
+@import url('__title/intro__title.css');
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  max-width: 985px;
+  padding-left: 48px;
+  padding-right: 48px;
+  margin: auto;
+  font-family: Inter, Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

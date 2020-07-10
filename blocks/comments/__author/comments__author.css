@@ -1,0 +1,22 @@
+.comments__author {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__author {
+    order: 2;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .comments__author {
+    line-height: 24px;
+  }
+}

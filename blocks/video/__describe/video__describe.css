@@ -1,0 +1,25 @@
+.video__describe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 83px;
+  margin-left: 5.4%;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__describe {
+    margin-top: 44px;
+    margin-left: 7%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__describe {
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__describe {
+    margin-left: 5.56%;
+  }
+}

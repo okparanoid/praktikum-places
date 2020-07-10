@@ -1,0 +1,10 @@
+.places__image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 425px) {
+  .places__image {
+    margin-bottom: 24px;
+  }
+}

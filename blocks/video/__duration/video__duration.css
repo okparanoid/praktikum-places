@@ -1,0 +1,32 @@
+.video__duration {
+  margin-bottom: 2%;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__duration {
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__duration {
+    margin-bottom: 2.54%;
+    margin-top: 0;
+    font-size: 3.2vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__duration {
+    font-size: 3.75vw;
+  }
+}
+
+

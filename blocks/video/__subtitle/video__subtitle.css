@@ -1,0 +1,27 @@
+.video__subtitle {
+  margin-top: 1.9%;
+  margin-bottom: 4.8%;
+  font-size: 14px;
+  line-height: 15px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__subtitle {
+    margin-bottom: 8%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__subtitle {
+    margin-bottom: 7.55%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__subtitle {
+    margin-bottom: 5.93%;
+    margin-top: 1.5%;
+  }
+}
+

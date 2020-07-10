@@ -1,0 +1,31 @@
+.cover__cover-bg {
+  width: 100%;
+  max-width: 1184px;
+  height: auto;
+  background-image: url('../../../images/cover.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  overflow: hidden;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+}
+
+.cover__cover-bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.cover__cover-bg:hover::after {
+  opacity: 1.1;
+  transition: opacity 0.5s ease-in 0s;
+}

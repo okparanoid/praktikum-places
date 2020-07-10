@@ -1,0 +1,36 @@
+.photo-grid__item {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width : 1024px) {
+  .photo-grid__item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid__item {
+    margin-bottom: 4.38%;
+  }
+
+  .photo-grid__item:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .photo-grid__item {
+    margin-bottom: 16px;
+    height: 61.86vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__item {
+    margin-bottom: 8px;
+  }
+}
